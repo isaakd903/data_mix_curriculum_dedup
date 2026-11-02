@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "isaakd903-exptrack_jd230"
+name = "isaakd903-data_mix_curriculum_dedup"
 version = "0.1.0"
 description = "对内容做归一化与分片比对，找出实验管理与追踪工程师·训练数据配比与课程学习上的重复项并按相似度归并"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://isaakd903.github.io"
-Repository = "https://github.com/isaakd903/exptrack_jd230"
-Issues = "https://github.com/isaakd903/exptrack_jd230/issues"
+Repository = "https://github.com/isaakd903/data_mix_curriculum_dedup"
+Issues = "https://github.com/isaakd903/data_mix_curriculum_dedup/issues"
 
 [project.scripts]
-exptrack_jd230 = "exptrack_jd230:main"
+data_mix_curriculum_dedup = "data_mix_curriculum_dedup:main"
 
 [tool.setuptools]
-py-modules = ["exptrack_jd230"]
+py-modules = ["data_mix_curriculum_dedup"]
